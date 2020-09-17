@@ -1,9 +1,9 @@
-#Poll
+# Poll
 
 The Poll command allows a user to create a reaction-based poll.
 
-##Usage
-`a!poll` - Show the help dialog.
+## Usage
+`a!poll` - Show the help dialog.  
 `a!poll <question>|<option1>|<option2>[|<option3>...<option8>]`
 
 **Example Usage**
@@ -12,4 +12,4 @@ The Poll command allows a user to create a reaction-based poll.
 **Notes**
 You must supply between two and eight options.
 
-*Thanks to `BrianWasTaken#9999` for help improving script*
+*Thanks to* `BrianWasTaken#9999` *for help improving script*
