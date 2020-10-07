@@ -1,11 +1,11 @@
 {
-  "meta": "Exported for https://atlasbot.xyz via https://github.com/atlasbot/action-decryptor",
+  "meta": "Exported from https://atlasbot.xyz",
   "flags": {
     "ttl": 0,
     "cooldown": 0,
     "enabled": true,
     "silent": false,
-    "delete": true,
+    "delete": false,
     "quiet": false
   },
   "restrictions": {
@@ -15,16 +15,16 @@
     "permissions": []
   },
   "trigger": {
-    "type": "keyword",
-    "content": "sudo"
+    "type": "label",
+    "content": "leaderboard"
   },
   "content": [
     {
       "fallback": true,
       "type": "channel",
-      "message": "{set;args;{find;{args};^(?:sudo\\s)(.*)$}}\n{channel.send;{get;args}}",
-      "id": "5d72b86a21f3e5002364db08"
+      "message": "You can view this server's leaderboard at <https://atlasbot.xyz/leaderboard/{guild.id}>.",
+      "id": "5de1de28e5613600231c5620"
     }
   ],
-  "formatVersion": "1.1"
+  "formatVersion": "1.2"
 }
